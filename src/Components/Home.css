@@ -3,18 +3,18 @@
     height: 32rem;
   }
   .menu {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(240, 150, 30);
-    justify-content: center;
-    padding-bottom: 87%;
-    height: 100%;
-    opacity: 0;
+    height: 80rem;
+    width: 100%;
+    top: 10%;
+    position: absolute;
+    background-color: rgb(202, 138, 4);
+    z-index: 1000000;
   }
   .menu-ul {
     display: flex;
     flex-direction: column;
     margin-left: 32%;
+    padding-top: 50px;
   }
   .menu-button {
     margin-top: 20px;
