@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .app-img {
+    display: none;
+  }
+  .contact-div {
+    height: 60rem;
+  }
+  .contact-form {
+    width: 20rem;
+    height: 30rem;
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+  .input {
+    margin-left: 10px;
+  }
+}

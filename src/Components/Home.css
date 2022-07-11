@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+  .home {
+    height: 32rem;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 150, 30);
+    justify-content: center;
+    padding-bottom: 87%;
+    height: 100%;
+    opacity: 0;
+  }
+  .menu-ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32%;
+  }
+  .menu-button {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 25px;
+    flex-direction: column;
+  }
+  .menu-bar {
+    position: absolute;
+    top: 20px;
+    display: block;
+    right: 25px;
+  }
+  .nav-logo {
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    width: 130px;
+  }
+}

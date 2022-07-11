@@ -1,4 +1,5 @@
 import React from "react";
+import "./About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faKey,
@@ -14,8 +15,8 @@ const obj = {
 };
 function About() {
   return (
-    <div className="mt-[12%] ">
-      <div>
+    <div className="mt-[12%] about-head">
+      <div className="about-but">
         <button className="bg-yellow-600 ml-[42%] font-medium px-3 py-3 rounded-md hover:bg-red-500 hover:text-white">
           <span className="mr-1">
             <FontAwesomeIcon icon={faDownload} />
@@ -23,7 +24,7 @@ function About() {
           Download The App
         </button>
       </div>
-      <div className="flex gap-8 mt-[10%]">
+      <div className="flex gap-8 mt-[10%] about-body">
         <div>
           <img
             src={obj.dot}

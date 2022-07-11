@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  .about-head {
+    margin-top: 20%;
+  }
+  .about-but {
+    margin-left: -25%;
+    padding: 0 20px;
+  }
+  .about-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-body img {
+    display: none;
+  }
+  .about-body p {
+    width: 20rem;
+    text-align: center;
+    margin-left: 10%;
+  }
+}

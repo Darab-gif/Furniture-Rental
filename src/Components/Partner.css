@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .partner {
+    height: 55rem;
+  }
+  .partner-p {
+    text-align: justify;
+    margin-left: 5px;
+    width: 95%;
+  }
+  .partner-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    row-gap: 30px;
+    margin-left: -15%;
+  }
+  .partner-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 50px;
+    margin-left: -17%;
+  }
+  .last {
+    margin-left: 48%;
+  }
+}

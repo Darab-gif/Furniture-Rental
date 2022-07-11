@@ -1,12 +1,13 @@
 import React from "react";
+import "./Brand.css";
 
 const obj = {
   table: "./images/table.png",
 };
 function Brand() {
   return (
-    <div className="flex gap-20 mt-[5%]">
-      <div className="ml-[11%] mt-[16%]">
+    <div className="flex gap-20 mt-[5%] brand">
+      <div className="ml-[11%] mt-[16%] brand-div">
         <h1 className="text-4xl font-bold">Relax, You're Home!</h1>
         <p className="w-[30rem] leading-18 mt-5">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dolore
@@ -19,13 +20,9 @@ function Brand() {
           Sign Up
         </button>
       </div>
-      <div className="mb-10 ">
-        <img
-          src={obj.table}
-          alt=""
-          style={{ width: "32rem", height: "40rem" }}
-        />
-        <div className="absolute -z-20 top-[151rem] right-0 h-[21rem] w-[21rem] border-8 rounded-full border-yellow-500"></div>
+      <div className="mb-10 brand-img">
+        <img src={obj.table} alt="" className="h-[40rem] w-[32rem]" />
+        <div className="absolute brand-circle -z-20 top-[151rem] right-0 h-[21rem] w-[21rem] border-8 rounded-full border-yellow-500"></div>
       </div>
     </div>
   );

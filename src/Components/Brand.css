@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .brand {
+    margin-top: 28rem;
+  }
+  .brand-circle {
+    display: none;
+  }
+  .brand-img img {
+    position: absolute;
+    top: 150rem;
+    height: 28rem;
+    width: 20rem;
+    right: 10px;
+  }
+  .brand-div {
+    margin-left: 30px;
+    width: 85%;
+  }
+  .brand-div p {
+    width: 20rem;
+    text-align: justify;
+  }
+}

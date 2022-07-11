@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .couch {
+    position: absolute;
+    top: 63%;
+    left: 13px;
+    width: 22rem;
+  }
+  .app {
+    position: absolute;
+    top: 20%;
+    width: 15rem;
+    height: 25rem;
+    left: 20%;
+  }
+}
