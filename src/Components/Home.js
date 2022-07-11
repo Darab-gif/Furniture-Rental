@@ -10,15 +10,19 @@ const Home = () => {
   const handleClick = () => {
     setNav((nav) => !nav);
   };
+
+  const style = {
+    div: "flex justify-between py-9 cursor-pointer sm:hidden",
+  };
   return (
     <header className="w-full h-[45rem]  bg-yellow-600 home">
       <div className="absolute left-[30%] top-[5%] nav-logo">
         <img src={obj.logo} alt="Home" className="font-medium" />
       </div>
-      <nav className="flex justify-between py-9 cursor-pointer menu">
+      <nav className={`${nav ? "menu" : style.div}`}>
         <ul className="flex gap-6 mt-4 ml-10  menu-ul">
-          <li className="font-medium text-xl">HOME</li>
-          <li className="font-medium text-xl">CONTACT</li>
+          <li className="font-medium text-xl cursor-pointer">HOME</li>
+          <li className="font-medium text-xl cursor-pointer">CONTACT</li>
         </ul>
 
         <div className="flex gap-4 mr-14 menu-button">
