@@ -2,7 +2,7 @@
   .couch {
     position: absolute;
     top: 63%;
-    left: 13px;
+    left: 2%;
     width: 22rem;
   }
   .app {
@@ -10,6 +10,6 @@
     top: 20%;
     width: 15rem;
     height: 25rem;
-    left: 20%;
+    left: 19%;
   }
 }

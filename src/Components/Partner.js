@@ -13,7 +13,7 @@ function Partner() {
   return (
     <div className="bg-black mt-[10%] h-[35rem] partner">
       <h1 className="text-5xl font-medium text-yellow-600 text-center mt-5">
-        Our Patrners
+        Our Patners
       </h1>
       <p className="text-center partner-p ml-[30%]  mt-8 text-white text-md font-medium lg:w-[32rem] md:w-[20rem]">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam atque

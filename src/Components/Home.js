@@ -21,8 +21,12 @@ const Home = () => {
       </div>
       <nav className={`${nav ? "menu" : style.div}`}>
         <ul className="flex gap-6 mt-4 ml-10  menu-ul">
-          <li className="font-medium text-xl cursor-pointer">HOME</li>
-          <li className="font-medium text-xl cursor-pointer">CONTACT</li>
+          <li className="font-medium text-xl cursor-pointer hover:text-gray-700">
+            HOME
+          </li>
+          <li className="font-medium text-xl cursor-pointer hover:text-gray-700">
+            CONTACT
+          </li>
         </ul>
 
         <div className="flex gap-4 mr-14 menu-button">

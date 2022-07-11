@@ -2,6 +2,9 @@
   .partner {
     height: 55rem;
   }
+  .partner h1 {
+    margin-top: 10px;
+  }
   .partner-p {
     text-align: justify;
     margin-left: 5px;
