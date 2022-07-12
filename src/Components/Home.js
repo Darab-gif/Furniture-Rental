@@ -12,11 +12,11 @@ const Home = () => {
   };
 
   const style = {
-    div: "flex justify-between py-9 cursor-pointer sm:hidden",
+    div: "flex justify-between py-9 cursor-pointer sm:hidden lg:flex",
   };
   return (
     <header className="w-full h-[45rem]  bg-yellow-600 home">
-      <div className="absolute left-[30%] top-[5%] nav-logo">
+      <div className="absolute left-[35%] top-[5%] nav-logo">
         <img src={obj.logo} alt="Home" className="font-medium" />
       </div>
       <nav className={`${nav ? "menu" : style.div}`}>
