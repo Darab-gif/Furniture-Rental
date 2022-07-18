@@ -33,12 +33,12 @@ function Partner() {
             <img src={obj.cisso} alt="" className="self-center py-4" />
           </div>
           <div className="bg-white h-[8rem] w-[8rem] rounded-md">
-            <img src={obj.deezer} alt="" className="self-center py-4" />
+            <img src={obj.deezer} alt="" className="self-center py-4 " />
           </div>
         </div>
         <div className="ml-[10%] grid grid-cols-3 mt-10 partner-div">
           <div className="bg-white h-[8rem] w-[8rem] rounded-md">
-            <img src={obj.disney} alt="" className=" py-3" />
+            <img src={obj.deezer} alt="" className="self-center py-4" />
           </div>
           <div className="bg-white h-[8rem] w-[8rem] rounded-md">
             {" "}
