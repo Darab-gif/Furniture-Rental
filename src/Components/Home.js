@@ -38,7 +38,7 @@ const Home = () => {
           </button>
         </div>
       </nav>
-      <div onClick={handleClick} className="lg:hidden menu-bar">
+      <div onClick={handleClick} className="lg:hidden menu-bar cursor-pointer">
         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
       </div>
     </header>
