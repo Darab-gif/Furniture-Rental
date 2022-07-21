@@ -9,7 +9,7 @@ const obj = {
   app: "./images/app.svg",
 };
 
-const Contact = forwardRef((prop, ref) => {
+const Contact = forwardRef((props, ref) => {
   return (
     <div className="mt-[10%] h-[40rem] overflow-hidden contact-div" ref={ref}>
       <div className="flex gap-24 contact">
