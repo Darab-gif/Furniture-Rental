@@ -16,6 +16,16 @@ const Home = ({ home, contact }) => {
     setNav((nav) => !nav);
   };
 
+  switch (setNav) {
+    case true:
+      document.body.style.overflowY = "hidden";
+      break;
+    case false:
+      document.body.style.overflowY = "scroll";
+      break;
+    default:
+      document.body.style.overflowY = "scroll";
+  }
   const style = {
     div: "flex justify-between py-9 cursor-pointer sm:hidden lg:flex",
   };
