@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 import "./Home.css";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import useClickOutside from "../Hook/useClickOutside";
+import scroll from "../Hook/useScrollHook";
 const obj = {
   logo: "./images/logo.svg",
 };
-const Home = () => {
+const Home = ({ home, contact }) => {
   const [nav, setNav] = useState(false);
 
+  let ref = useClickOutside(() => {
+    setNav(false);
+  });
   const handleClick = () => {
     setNav((nav) => !nav);
   };
@@ -19,12 +24,18 @@ const Home = () => {
       <div className="absolute left-[35%] top-[5%] nav-logo">
         <img src={obj.logo} alt="Home" className="font-medium" />
       </div>
-      <nav className={`${nav ? "menu" : style.div}`}>
+      <nav className={`${nav ? "menu" : style.div}`} ref={ref}>
         <ul className="flex gap-6 mt-4 ml-10  menu-ul">
           <li className="font-medium text-xl cursor-pointer hover:text-gray-700">
             HOME
           </li>
-          <li className="font-medium text-xl cursor-pointer hover:text-gray-700">
+          <li
+            className="font-medium text-xl cursor-pointer hover:text-gray-700"
+            onClick={() => {
+              setNav(false);
+              scroll(contact);
+            }}
+          >
             CONTACT
           </li>
         </ul>

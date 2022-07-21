@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -8,9 +8,10 @@ const obj = {
   lamp: "./images/lamp.png",
   app: "./images/app.svg",
 };
-function Contact() {
+
+const Contact = forwardRef((prop, ref) => {
   return (
-    <div className="mt-[10%] h-[40rem] overflow-hidden contact-div">
+    <div className="mt-[10%] h-[40rem] overflow-hidden contact-div" ref={ref}>
       <div className="flex gap-24 contact">
         <div className="ml-[20%] mt-[3%]">
           <img src={obj.lamp} alt="" className="ml-10" />
@@ -72,6 +73,6 @@ function Contact() {
       </div>
     </div>
   );
-}
+});
 
 export default Contact;
